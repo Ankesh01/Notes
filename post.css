@@ -1,0 +1,24 @@
+.post-container{
+
+    display: flex;
+    margin-top: 50px;
+       
+}
+
+.post-center{
+    flex:4;
+    width: 100%;
+    background-color: aqua;
+}
+
+.post-left{
+    flex:3;
+    width: 100%;
+    background-color: rgb(116, 129, 129);
+}
+
+.post-right{
+    flex:5;
+    width: 100%;
+    background-color:blue;
+}

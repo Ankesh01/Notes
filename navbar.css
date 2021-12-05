@@ -1,0 +1,56 @@
+.navbar-container{
+    height:50px;
+    width:100%;
+    background-color: #1877f2;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0;  
+}
+
+.navbar-Left {
+    flex:3;
+}
+
+.navbar-Center {
+    flex:5;
+}
+
+.navbar-Right {
+    flex:4;
+   
+}
+
+.logo{
+    font-size:24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.searchbar{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius:30px;
+}
+
+.search-input{
+    margin-top:5px;
+    margin-left: 20px;
+    border:none;
+    width:70%;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.Links{
+    margin-left: 20px;
+}
+.link {
+    margin-right: 24px;
+    font-size: 17px;
+    color: #fff;
+}
